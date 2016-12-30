@@ -1,0 +1,170 @@
+/*
+Style for Team profile Code Snippet
+Author: Tarik Omercehajic
+Email: tarik.omercehajic@gmail.com
+Website: tariktz.github.io
+
+MIT License
+
+Copyright (c) 2016 Tarik Omercehajic
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  color: #000;
+}
+
+.grid-item {
+  width: 22%;
+  float: left;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 10px 1%;
+  transition: all 0.5s ease-in-out;
+}
+
+.grid-img {
+
+}
+
+.grid-img img{
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 17px 14px -6px rgba(222, 222, 222, 0.6);
+}
+
+.content-v {
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+.content-v h5 {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+
+.content-v p {
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.content-h h5 {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 1px;
+  margin-top: 10px;
+	color: #fff;
+	line-height: 16px;
+	font-weight: bold;
+}
+
+.content-h p {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.content-h a {
+  color: #fff;
+  transition: all 0.25s ease-in-out;
+}
+
+.content-h a:hover {
+  opacity: 0.6;
+}
+
+.content-h i {
+  font-size: 18px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.content-h {
+  position: absolute;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  bottom: -200px;
+  padding: 10px 5px;
+}
+
+p.email {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grid-item:hover > .content-h {
+  bottom: 0px;
+}
+
+.grid-item:hover > .grid-img img {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-item {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-item {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .grid-item {
+    width: 100%;
+  }
+}

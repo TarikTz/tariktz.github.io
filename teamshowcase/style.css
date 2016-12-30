@@ -37,6 +37,21 @@ a {
   text-decoration: none;
 }
 
+.text-center {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.text-center a {
+  color: #000;
+  transition: all 0.25s ease-in-out;
+}
+
+.text-center a:hover {
+  color: #989898;
+}
+
 .container {
   width: 1000px;
   margin: 0px auto;
@@ -47,7 +62,7 @@ h2 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   color: #000;
 }
 

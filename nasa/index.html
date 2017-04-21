@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Space Apps 2017 - API Bootcamp</title>
+
+  <meta name="viewport" content="user-scalable=no, width=device-width" />
+
+  <!-- style -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+  <script src="https://use.fontawesome.com/a65d0c91a2.js"></script> <!-- fontawesome -->
+
+</head>
+<body>
+
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="https://2017.spaceappschallenge.org/" target="_blank">Space App Challenge</a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <section class="main-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Mars Rover Photos</h1>
+          <p>This API is designed to collect image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars and make it more easily available to other developers, educators, and citizen scientists. This API is maintained by Chris Cerami.</p>
+          <p>Each rover has its own set of photos stored in the database, which can be queried separately. There are several possible queries that can be made against the API. Photos are organized by the sol (Martian rotation or day) on which they were taken, counting up from the rover's landing date. A photo taken on Curiosity's 1000th Martian sol exploring Mars, for example, will have a sol attribute of 1000. If instead you prefer to search by the Earth date on which a photo was taken, you can do that too.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="row items">
+        <div class="col-md-6 data-holder">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01653/opgs/edr/fcam/FLB_544233729EDR_F0620108FHAZ00341M_.JPG" class="img-responsive" alt="">
+            </div>
+            <div class="col-md-6">
+              <h5>Image ID: 620216</h5>
+              <h5>Earth Date: 2017-03-31</h5>
+              <h5>Rover name: Curiosity</h5>
+              <h5>SOL: 1653</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Developed by Tarik Omercehajic</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- script -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
